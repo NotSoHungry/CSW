@@ -1,0 +1,266 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700,900');
+@import url('https://fonts.googleapis.com/css?family=Raleway:400,500,700');
+@import url('https://fonts.googleapis.com/css?family=Cardo:400i');
+
+
+.centerVert {
+    display: flex;
+    align-items: center;
+    height: 100%;
+}
+
+header,
+main {
+    /* padding: 40px 0; */
+    font-family: "Open Sans";
+}
+
+.pg-hero {
+    /* border: solid 1px blue; */
+    height: 700px;
+    width: 100%;
+    /* background: #000115; */
+    position: relative;
+}
+
+.pg-hero figure {
+    /* display: flex; */
+    align-items: center;
+    position: relative;
+}
+
+.pg-hero__overlay {
+    /* position: absolute; */
+    height: 100%;
+    background: #000115;
+    width: 100%;
+    opacity: .8;
+}
+
+.pg-hero figcaption {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: column;
+}
+
+.pg-hero figcaption .container {
+    /* border: solid 1px red; */
+    margin-bottom: 60px;
+}
+
+.pg-hero figcaption h1 {
+    color: #fff;
+    font-size: 60px;
+    text-transform: uppercase;
+    font-weight: 900;
+    padding: 30px;
+    text-align: center;
+}
+
+.pg-hero figcaption p {
+    font-size: 20px;
+    color: #C8C8CC;
+    padding-right: 60px;
+    padding-left: 60px;
+    padding-bottom: 40px;
+    font-family: Raleway;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.pg-hero figcaption button {
+    text-decoration: none;
+    background: #cc071e;
+    display: block;
+    text-align: center;
+    border: none;
+    color: white;
+    padding: 20px 60px;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-left: 30px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 60px;
+    margin: 0 auto;
+}
+
+.pg-hero figure {
+    height: 100%;
+    width: 100%;
+    background: url(../assets/hero.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* opacity: 0.25; */
+}
+
+.container {
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+nav {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    color: #fff;
+    /* background: rgba(255, 255, 255, .4); */
+    z-index: 1;
+}
+
+.nav__top {
+    /* border: solid 1px black; */
+    /* height: 40px; */
+}
+
+.nav__top ul {
+    display: inline-block;
+}
+
+ul li {
+    display: inline-block;
+}
+
+.nav__top .container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+}
+
+.nav__top__menu li{
+    padding: 30px 0;
+    font-size: 14px;
+}
+
+.nav__top__menu.secondary {
+    color: #C8C8CC;
+}
+
+.nav__top__menu.primary li:first-child {
+    padding-right: 20px;
+}
+
+.nav__top__menu li em {
+    padding-right: 10px;
+    color: #cc071e;
+    font-weight: 800;
+    text-transform: uppercase;
+    font-style: normal;
+}
+
+.nav__main {
+    /* border: solid 1px black; */
+}
+
+.nav__main .container {
+    display: flex;
+    flex-direction: row;
+    height: 100%;
+    /* border: solid 1px red; */
+    flex-wrap: nowrap;
+}
+
+.nav__main__logo,
+.nav__main__menu {
+    display: inline-block;
+}
+
+.nav__main__menu {
+    /* height: 100%; */
+    vertical-align: top;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: #C8C8CC;
+
+}
+
+.nav__main__menu li {
+    padding: 15px;
+}
+
+.nav__main__logo {
+    flex: 1;
+}
+
+.nav__main .container::after {
+    content: '';
+    display: block;
+    flex: 1;
+}
+
+
+.pg-main__classes__heading,
+.pg-main__coaches__heading {
+    margin: 0 auto;
+    /* border: solid 1px red; */
+    width: 30%;
+    height: 60px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    transform: translateY(-50%);
+    background: #cc071e;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    z-index: 1;
+    
+}
+
+.pg-main__classes__heading::after,
+.pg-main__coaches__heading::after {
+    content: '';
+    position: absolute;
+    top: 100%;
+    border-left: 300px solid transparent;
+    border-right: 300px solid transparent;
+    border-top: 40px solid #cc071e;
+    width: 100%;
+    border-radius: 5px 5px;
+    z-index: 1;
+}
+
+.pg-main__classes__heading h2 {
+    font-size: 32px;
+    text-align: center;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+.pg-main__classes {
+    position: relative;
+    height: 800px;
+}
+
+.pg-main__coaches {
+    position: relative;
+    height: 800px;
+    background: #424242;
+    background-size: cover;
+}
+
+.pg-main__coaches__heading h2 {
+    font-size: 32px;
+    text-align: center;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+.main__coaches__overlay {
+    width: 100%;
+    height: 100%;
+    background: #000115;
+    opacity: .2;
+}
+
+
+/* 21212B */
