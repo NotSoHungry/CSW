@@ -2,6 +2,9 @@
 @import url('https://fonts.googleapis.com/css?family=Raleway:400,500,700');
 @import url('https://fonts.googleapis.com/css?family=Cardo:400i');
 
+* {
+    box-sizing: border-box;
+}
 
 .centerVert {
     display: flex;
@@ -13,6 +16,10 @@ header,
 main {
     /* padding: 40px 0; */
     font-family: "Open Sans";
+}
+
+main p {
+    font-family: Raleway;
 }
 
 .pg-hero {
@@ -230,10 +237,11 @@ ul li {
 }
 
 .pg-main__classes__heading h2 {
-    font-size: 32px;
+    font-size: 48px;
     text-align: center;
     color: #fff;
     text-transform: uppercase;
+    font-weight: 900;
 }
 
 .pg-main__classes {
@@ -244,7 +252,7 @@ ul li {
 .pg-main__coaches {
     position: relative;
     height: 800px;
-    background: #424242;
+    background: #21212B;
     background-size: cover;
 }
 
@@ -255,12 +263,56 @@ ul li {
     text-transform: uppercase;
 }
 
-.main__coaches__overlay {
+/* .main__coaches__overlay {
     width: 100%;
     height: 100%;
     background: #000115;
     opacity: .2;
+} */
+
+.pg-main__classes .container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    padding-top: 40px;
 }
 
+.classes__heading {
+    border: solid 1px red;
+    width: 40%;
+}
 
-/* 21212B */
+.classes__heading h2 {
+    color: #424242;
+    font-size: 54px;
+    font-weight: 700;
+    text-transform: uppercase;
+    line-height: 60px;
+}
+
+.classes__heading p {
+    padding: 15px 15px;
+    line-height: 22px;
+    padding-left: 0;
+}
+
+.classes__heading button {
+    background: #cc071e;
+    border: none;
+    color: #fff;
+    padding: 20px 30px;
+    text-transform: uppercase;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.classes_list {
+    width: 60%;
+    border: solid 1px blue;
+}
+
+/* 21212B - dark background */
+
+/* #424242 - dark text */
+
+/* #C8C8CC - light text  */
