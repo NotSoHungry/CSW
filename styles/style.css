@@ -109,6 +109,7 @@ main p {
 .container {
     max-width: 1440px;
     margin: 0 auto;
+    padding: 0 20px;
 }
 
 nav {
@@ -246,7 +247,7 @@ ul li {
 
 .pg-main__classes {
     position: relative;
-    height: 800px;
+    min-height: 1000px;
 }
 
 .pg-main__coaches {
@@ -278,7 +279,7 @@ ul li {
 }
 
 .classes__heading {
-    border: solid 1px red;
+    /* border: solid 1px red; */
     width: 40%;
 }
 
@@ -306,10 +307,36 @@ ul li {
     cursor: pointer;
 }
 
-.classes_list {
+.classes__list {
     width: 60%;
-    border: solid 1px blue;
+    /* border: solid 1px blue; */
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
 }
+
+.classes__list__group {
+    height: 50%;
+    width: 100%;
+    /* border: solid 1px black; */
+    display: flex;
+    justify-content: space-around;
+}
+
+.classes__list .list__group__item {
+    border: solid 1px red;
+    width: 40%;
+    height: 100%;
+}
+
+.classes__list .list__group__item.emp {
+    height: 120%;
+}
+
+.classes__list .classes__list__group.second .list__group__item {
+    margin-top: 100px;
+}
+
 
 /* 21212B - dark background */
 
