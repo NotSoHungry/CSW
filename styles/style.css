@@ -253,7 +253,7 @@ ul li {
 
 .pg-main__coaches {
     position: relative;
-    height: 800px;
+    /* height: 800px; */
     background: #21212B;
     background-size: cover;
 }
@@ -422,6 +422,19 @@ width: 45%;
     padding: 15px 30px;
     font-weight: 700;
     text-transform: uppercase;
+}
+
+.pg-main__coaches .container {
+    padding-top: 40px;
+}
+
+.pg-main__coaches h2 {
+    color: #fff;
+    font-size: 54px;
+    font-weight: 700;
+    text-transform: uppercase;
+    line-height: 60px;
+    text-align: center;
 }
 
 
