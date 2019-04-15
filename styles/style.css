@@ -247,7 +247,7 @@ ul li {
 
 .pg-main__classes {
     position: relative;
-    min-height: 1000px;
+    min-height: 900px;
     background: #f6f6f6;
 }
 
@@ -315,6 +315,7 @@ ul li {
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
+    height: 780px;
 }
 
 .classes__list__group {
@@ -333,25 +334,33 @@ ul li {
 }
 
 .classes__list .list__group__item.emp {
-    height: 120%;
+    height: 100%;
+}
+
+.classes__list .list__group__item.sm {
+    height: 80%;
+}
+
+.classes__list .list__group__item.box {
+    align-self: flex-end;
 }
 
 .classes__list .classes__list__group.second .list__group__item {
-    margin-top: 100px;
+    /* margin-top: 100px; */
 }
 
 .classes__list .list__group__item {
     background: url(../assets/mma2.jpg);
     background-size: cover;
     background-position: center;
-    -webkit-box-shadow: 4px -4px 5px -4px rgba(0,0,0,0.75);
--moz-box-shadow: 4px -4px 5px -4px rgba(0,0,0,0.75);
-box-shadow: 4px -4px 5px -4px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 4px 4px 5px -4px rgba(0,0,0,0.75);
+-moz-box-shadow: 4px 4px 5px -4px rgba(0,0,0,0.75);
+box-shadow: 4px 4px 5px -4px rgba(0,0,0,0.75);
 }
 
 .classes__list .group__item__overlay {
     height: 45%;
-    background: rgba(204, 7, 30, .95);
+    background: rgba(194, 63, 78, .95);
     position: absolute;
     bottom: 0;
     left: 0;
@@ -363,6 +372,7 @@ box-shadow: 4px -4px 5px -4px rgba(0,0,0,0.75);
     color: #fff;
     text-transform: uppercase;
     text-align: center;
+    line-height: 40px;
 }
 
 
