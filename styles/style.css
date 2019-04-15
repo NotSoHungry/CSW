@@ -151,6 +151,14 @@ ul li {
     color: #C8C8CC;
 }
 
+.nav__top__menu.secondary .fa-facebook,
+.nav__top__menu.secondary .fa-instagram,
+.nav__top__menu.secondary .fa-youtube {
+    font-size: 20px;
+    margin-left: 15px;
+    color: #fff;
+}
+
 .nav__top__menu.primary li:first-child {
     padding-right: 20px;
 }
