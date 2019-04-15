@@ -309,6 +309,13 @@ ul li {
     font-size: 16px;
 }
 
+.classes__heading button .fa-arrow-right {
+    margin-left: 10px;
+    font-size: 16px;
+    transform: scalex(2000%);
+    color: #1F1F42;
+}
+
 .classes__list {
     width: 60%;
     /* border: solid 1px blue; */
@@ -353,14 +360,20 @@ ul li {
     background: url(../assets/mma2.jpg);
     background-size: cover;
     background-position: center;
-    -webkit-box-shadow: 4px 4px 5px -4px rgba(0,0,0,0.75);
+    /* -webkit-box-shadow: 4px 4px 5px -4px rgba(0,0,0,0.75);
 -moz-box-shadow: 4px 4px 5px -4px rgba(0,0,0,0.75);
-box-shadow: 4px 4px 5px -4px rgba(0,0,0,0.75);
+box-shadow: 4px 4px 5px -4px rgba(0,0,0,0.75); */
+width: 45%;
+}
+
+.list__group__item.bjj {
+    background: url(../assets/bjj.jpg);
+    background-size: cover;
 }
 
 .classes__list .group__item__overlay {
     height: 45%;
-    background: rgba(194, 63, 78, .95);
+    background: rgba(18, 19, 35, .95);
     position: absolute;
     bottom: 0;
     left: 0;
@@ -373,6 +386,11 @@ box-shadow: 4px 4px 5px -4px rgba(0,0,0,0.75);
     text-transform: uppercase;
     text-align: center;
     line-height: 40px;
+}
+
+.classes__list .group__item__overlay p {
+    color: #C8C8CC;
+    padding: 0 10px;
 }
 
 
