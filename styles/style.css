@@ -425,7 +425,7 @@ width: 45%;
 }
 
 .pg-main__coaches .container {
-    padding-top: 40px;
+    padding: 40px 0;
 }
 
 .pg-main__coaches h2 {
@@ -435,6 +435,21 @@ width: 45%;
     text-transform: uppercase;
     line-height: 60px;
     text-align: center;
+}
+
+.pg-main__coaches p {
+    /* font-size: 20px; */
+    color: #C8C8CC;
+    padding: 30px 30px;
+    line-height: 22px;
+    padding-left: 0;
+    text-align: center;
+}
+
+.coaches__list {
+    border: solid 1px red;
+    height: 400px;
+    
 }
 
 
