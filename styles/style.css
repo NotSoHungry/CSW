@@ -367,17 +367,32 @@ width: 45%;
 }
 
 .list__group__item.bjj {
-    background: url(../assets/bjj.jpg);
+    background: url(../assets/bjj2.jpeg);
     background-size: cover;
+    background-position: center;
+}
+
+.list__group__item.kravmagi {
+    background: url(../assets/krav4.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.list__group__item.box {
+    background: url(../assets/box2.jpg);
+    background-size: cover;
+    background-position: center;
 }
 
 .classes__list .group__item__overlay {
     height: 45%;
-    background: rgba(18, 19, 35, .95);
+    background: rgba(18, 19, 35, .9);
     position: absolute;
     bottom: 0;
     left: 0;
     right: 0;
+    display: flex;
+    flex-direction: column;
 }
 
 .classes__list .group__item__overlay h3 {
@@ -390,7 +405,23 @@ width: 45%;
 
 .classes__list .group__item__overlay p {
     color: #C8C8CC;
+    padding: 15px 10px;
+    line-height: 18px;
+}
+
+.classes__list .group__item__overlay p:first-of-type {
     padding: 0 10px;
+}
+
+.classes__list .group__item__overlay button {
+    text-decoration: none;
+    background: #cc071e;
+    text-align: center;
+    border: none;
+    color: white;
+    padding: 15px 30px;
+    font-weight: 700;
+    text-transform: uppercase;
 }
 
 
