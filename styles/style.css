@@ -456,8 +456,51 @@ width: 45%;
 
 .coaches__list {
     border: solid 1px red;
-    height: 400px;
+    height: 600px;
+    /* display: flex; */
+    padding: 0 80px;
     
+}
+
+.coaches__list__item {
+    width: 100%;
+    height: 100%;
+    /* border: solid 1px green; */
+    /* display: flex; */
+}
+
+.coaches__list figure {
+    display: flex;
+    width: 100%;
+    height: 100%;
+}
+
+.coaches__list .item__description {
+    height: 100%;
+    width: 40%;
+    border: solid 1px green;
+}
+
+.coaches__list .item__photo {
+    height: 100%;
+    width: 60%;
+    border: solid 1px green;
+} 
+
+.coaches__list__item h3 {
+    font-size: 40px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #cc071e;
+}
+
+.coaches__list__item p {
+    text-align: left;
+}
+
+.coaches__list__item p.classes {
+    font-weight: 700;
+    font-size: 14;
 }
 
 
