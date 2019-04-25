@@ -492,15 +492,29 @@ width: 45%;
     font-weight: 700;
     text-transform: uppercase;
     color: #cc071e;
+    line-height: 52px;
 }
 
 .coaches__list__item p {
     text-align: left;
+    padding-top: 0;
 }
 
-.coaches__list__item p.classes {
+.coaches__list__item p.description__classes-list {
     font-weight: 700;
-    font-size: 14;
+    font-size: 15px;
+    line-height: 24px;
+}
+
+.coaches__list__item p.description__main-text {
+    font-size: 15px;
+}
+
+.coaches__list__item .item__photo {
+    background: url(../assets/trainer1.jpg);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 
 
