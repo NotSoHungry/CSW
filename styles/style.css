@@ -455,10 +455,12 @@ width: 45%;
 }
 
 .coaches__list {
-    border: solid 1px red;
+    /* border: solid 1px red; */
     height: 600px;
     /* display: flex; */
     padding: 0 80px;
+    margin-top: 50px;
+    background: #f6f6f6;
     
 }
 
@@ -478,13 +480,14 @@ width: 45%;
 .coaches__list .item__description {
     height: 100%;
     width: 40%;
-    border: solid 1px green;
+    /* border: solid 1px green; */
+    padding-top: 30px;
 }
 
 .coaches__list .item__photo {
     height: 100%;
     width: 60%;
-    border: solid 1px green;
+    /* border: solid 1px green; */
 } 
 
 .coaches__list__item h3 {
@@ -498,6 +501,7 @@ width: 45%;
 .coaches__list__item p {
     text-align: left;
     padding-top: 0;
+    color: #424242;
 }
 
 .coaches__list__item p.description__classes-list {
