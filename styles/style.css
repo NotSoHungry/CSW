@@ -530,6 +530,11 @@ width: 45%;
     border-radius: 50%;
     /* background: #cc071e; */
 }
+
+.pg-main__schedule {
+    height: 500px;
+    background: #f6f6f6;
+}
 /* 21212B - dark background */
 
 /* #424242 - dark text */
