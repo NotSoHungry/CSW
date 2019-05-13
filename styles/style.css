@@ -582,8 +582,37 @@ width: 45%;
 }
 
 .pg-main__schedule {
-    height: 500px;
+    /* height: 050px; */
     background: #f6f6f6;
+}
+
+.pg-main__schedule .container {
+    display: flex;
+    padding-top: 40px;
+}
+
+.pg-main__schedule article {
+    width: 35%;
+}
+
+.pg-main__schedule .schedule {
+    width: 60%;
+    border: solid 1px black;
+    height: 600px;
+} 
+
+.pg-main__schedule h2 {
+    color: #424242;
+    font-size: 54px;
+    font-weight: 700;
+    text-transform: uppercase;
+    line-height: 60px;
+}
+
+.pg-main__schedule p {
+    padding: 15px 15px;
+    line-height: 22px;
+    padding-left: 0;
 }
 /* 21212B - dark background */
 
