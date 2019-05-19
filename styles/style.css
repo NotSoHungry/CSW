@@ -649,6 +649,29 @@ width: 45%;
     height: 140px;
     border: 4px solid;
     border-radius: 2%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 20px 10px;
+}
+
+.day__item.class * {
+    /* border: solid 1px green; */
+}
+
+.day__item.class h3 {
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 26px;
+    padding-bottom: 10px;
+}
+
+.day__item.class p {
+    line-height: 18px;
+    padding: 0;
+    padding-bottom: 10px;
+    font-size: 18px;
 }
 
 .day__item.class.red {
