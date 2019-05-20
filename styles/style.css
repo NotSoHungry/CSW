@@ -590,6 +590,7 @@ width: 45%;
     display: flex;
     padding-top: 40px;
     justify-content: space-between;
+    padding-bottom: 40px;
 }
 
 .pg-main__schedule article {
@@ -599,7 +600,7 @@ width: 45%;
 .pg-main__schedule .schedule {
     width: 70%;
     /* border: solid 1px black; */
-    height: 600px;
+    /* height: 600px; */
     display: flex;
     justify-content: space-between;
 } 
@@ -682,6 +683,96 @@ width: 45%;
     border-color: rgba(33,33,43, .7);
 }
 
+.pg-main__media {
+    padding: 40px 0;
+    background: #f6f6f6;
+    font-family: "Open Sans";
+}
+
+.pg-main__media h2 {
+    font-size: 38px;
+    text-transform: uppercase;
+    color: #424242;
+    line-height: 42px;
+    margin-bottom: 30px;
+
+}
+
+.pg-main__media button {
+    padding: 20px 30px;
+    font-size: 16px;
+    border: solid 1px;
+    /* margin: 0 auto; */
+    color: #fff;
+    background: #cc071e;
+    display: inline;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-family: "Open Sans";
+    /* border: solid 3px #cc071e; */
+    align-self: flex-start;
+    cursor: pointer;
+}
+
+.pg-main__media .fa-arrow-right {
+    margin-left: 10px;
+}
+
+.media__insta,
+.media__youtube {
+    width: 100%;
+    display: flex;
+    /* border: solid 1px black; */
+}
+
+.insta__items {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.insta__items__item {
+    width: 15%;
+    /* border: solid 1px green;/ */
+}
+
+.insta__items__item .item__wrapper {
+    padding-top: 100%;
+    width: 100%;
+    height: 0;
+    position: relative;
+}
+
+.insta__items__item .item__wrapper .item__header__text {
+    width: 100%;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.insta__items__item.photo.first .item__wrapper {
+    background: url(../assets/insta_1.jpg);
+    background-size: cover;
+}
+.insta__items__item.photo.second .item__wrapper {
+    background: url(../assets/insta_2.jpg);
+    background-size: cover;
+}
+.insta__items__item.photo.third .item__wrapper {
+    background: url(../assets/insta_3.jpg);
+    background-size: cover;
+}
+.insta__items__item.photo.fourth .item__wrapper {
+    background: url(../assets/insta_4.jpg);
+    background-size: cover;
+}
+.insta__items__item.photo.fifth .item__wrapper {
+    background: url(../assets/insta_5.jpg);
+    background-size: cover;
+}
+
 
 /* 21212B - dark background */
 
@@ -690,3 +781,5 @@ width: 45%;
 /* #C8C8CC - light text  */
 
 /* #cc071e - red */
+
+/* #f6f6f6 - light background */
