@@ -107,6 +107,7 @@ main p {
 }
 
 .container {
+    width: 100%;
     max-width: 1440px;
     margin: 0 auto;
     padding: 0 20px;
@@ -730,7 +731,7 @@ width: 45%;
 .media__blog {
     background: #21212B;
     width: 100%;
-    height: 600px;
+    /* height: 600px; */
 }
 
 .insta__items,
@@ -830,7 +831,61 @@ width: 45%;
         background-size: cover;
 }
 
+.media__blog {
+    padding: 60px 0;
+}
 
+.blog__heading h2 {
+    color: #fff;
+    font-size: 54px;
+    font-weight: 700;
+    font-family: "Open Sans";
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.blog__posts {
+    display: flex;
+    width: 100%;
+}
+
+.blog__posts .posts__main {
+    width: 100%;
+    border: solid 1px red;
+    display: flex;
+    justify-content: space-between;
+}
+
+.blog__posts .posts__secondary {
+    width: 40%;
+    border: solid 1px green;
+}
+
+.posts__item {
+    border: solid 1px green;
+}
+
+.posts__item.main {
+    width: 35%;
+}
+
+.posts__item.main figure {
+    width: 100%;
+}
+
+.posts__item.main figure .photo_wrapper {
+    height: 0;
+    padding-top: 70%;
+}
+
+.posts__item.secondary {
+    width: 25%;
+}
+
+.posts__item.main.first figure .photo_wrapper {
+    background: url(../assets/post1.jpg);
+    background-size: cover;
+}
 
 
 /* 21212B - dark background */
