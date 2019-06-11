@@ -977,6 +977,11 @@ height: 70%;
     background-size: cover;
 }
 
+.pg-main__pricing {
+    background: #f6f6f6;
+    height: 400px;
+}
+
 
 /* 21212B - dark background */
 
