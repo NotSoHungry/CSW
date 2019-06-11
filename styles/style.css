@@ -842,16 +842,18 @@ width: 45%;
     font-family: "Open Sans";
     text-transform: uppercase;
     text-align: center;
+    margin-bottom: 50px;
 }
 
 .blog__posts {
     display: flex;
     width: 100%;
+    padding: 0 60px;
 }
 
 .blog__posts .posts__main {
     width: 100%;
-    border: solid 1px red;
+    /* border: solid 1px red; */
     display: flex;
     justify-content: space-between;
 }
@@ -862,7 +864,7 @@ width: 45%;
 }
 
 .posts__item {
-    border: solid 1px green;
+/*     border: solid 1px green; */
 }
 
 .posts__item.main {
@@ -871,19 +873,107 @@ width: 45%;
 
 .posts__item.main figure {
     width: 100%;
+    position: relative;
+}
+
+.posts__item.main .item__date {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    /* top: 0; */
+    /* right: 0; */
+    /* border: solid 1px red; */
+    color: #fff;
+    font-family: "Open Sans";
+    background: #21212B;
+    padding: 15px 20px;
+    /* text-transform: uppercase; */
+    font-weight: 700;
+
+}
+
+.posts__item.main .item__date p {
+    vertical-align: bottom;
+}
+
+.posts__item.main .item__description {
+  
+  /* padding: 20px 0px; */
+  text-align: left;
+  margin-bottom: 20px;
+  
+}
+
+.posts__item.main .item__description h3 {
+    color: #fff;
+    line-height: 40px;
+    margin-top: 10px;
+}
+
+.posts__item.main .item__description p {
+    color: #C8C8CC;
+    line-height: 24px;
+    font-size: 15px;
+    margin-top: 10px;
+}
+
+.posts__item.main .item__description h3 {
+  text-transform: uppercase;
+  
 }
 
 .posts__item.main figure .photo_wrapper {
     height: 0;
     padding-top: 70%;
+    position: relative;
+}
+
+.posts__item.main button {
+    border: none;
+    padding: 15px 20px;
 }
 
 .posts__item.secondary {
     width: 25%;
+    -webkit-box-shadow: 0px 0px 72px -5px rgba(56,56,56,1);
+-moz-box-shadow: 0px 0px 72px -5px rgba(56,56,56,1);
+box-shadow: 0px 0px 72px -5px rgba(56,56,56,1);
+display: flex;
+flex-direction: column;
+padding: 20px 20px;
+justify-content: space-around;
+height: 70%;
+
+} 
+
+.posts__item.secondary .item__link {
+    /* margin-bottom: 20px; */
+    border-bottom: solid 1px rgba(204,7,30, .7);
+    padding-bottom: 20px;
+}
+
+.posts__item.secondary .item__link.last {
+    border: none;
+}
+
+.posts__item.secondary h3 {
+    color: #fff;
+    text-transform: uppercase;
+    line-height: 24px;
+    margin-bottom: 10px;
+}
+
+.posts__item.secondary p {
+    color: #c8c8cc;
 }
 
 .posts__item.main.first figure .photo_wrapper {
     background: url(../assets/post1.jpg);
+    background-size: cover;
+}
+
+.posts__item.main.second figure .photo_wrapper {
+    background: url(../assets/post2.jpg);
     background-size: cover;
 }
 
