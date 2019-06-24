@@ -998,7 +998,7 @@ height: 70%;
     /* border: solid 1px red; */
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: center;
 }
 
 .pg-main__pricing .pricing__list .list__item {
@@ -1011,6 +1011,20 @@ height: 70%;
 box-shadow: -5px 3px 12px -3px rgba(201,201,201,1); */
 background: #262737;
 border-radius: 5%;
+margin-right: 30px;
+}
+
+.pg-main__pricing .pricing__list .list__item.mix {
+    background: rgba(204,7,30, .7);
+    transform: scale(1.05);
+}
+
+.pg-main__pricing .pricing__list .list__item.mix h3 {
+    font-size: 32px;
+}
+
+.pg-main__pricing .pricing__list .list__item:last-child {
+    margin-right: 0;
 }
 
 .pg-main__pricing .pricing__list .list__item h3 {
