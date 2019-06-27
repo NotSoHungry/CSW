@@ -1045,7 +1045,7 @@ box-shadow: 0px 2px 7px 0px rgba(189,68,82,0.83);
     font-family: "Open Sans";
     font-weight: 700;
     line-height: 32px;
-    margin: 20px 0;
+    margin: 10px 0;
     padding-top: 30px;
     padding-bottom: 10px;
     /* -webkit-box-shadow: 3px 11px 7px -12px rgba(179,179,179,1);
@@ -1061,6 +1061,24 @@ box-shadow: 3px 11px 7px -12px rgba(179,179,179,1); */
     padding: 15px 0;
     color: #C8C8CC;
     font-size: 16px;
+}
+
+.pg-main__pricing .pricing__list .list__item button {
+    background: #cc071e;
+    border: none;
+    color: #fff;
+    padding: 15px 40px;
+    border-radius: 5%;
+    font-family: "Open Sans";
+    text-transform: uppercase;
+    font-size: 16px;
+    /* font-weight: 700; */
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+.pg-main__pricing .pricing__list .list__item.mix button {
+    background: #262737;
 }
 
 .pg-main__pricing .pricing__list .list__item p.item__price span {
