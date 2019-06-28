@@ -1083,7 +1083,7 @@ box-shadow: 3px 11px 7px -12px rgba(179,179,179,1); */
 
 .pg-main__pricing .pricing__list .list__item p.item__price span {
     color: #cc071e;
-    font-size: 46px;
+    font-size: 54px;
     font-weight: 700;
 }
 
@@ -1111,7 +1111,32 @@ box-shadow: 3px 11px 7px -12px rgba(179,179,179,1); */
 .quick-contact__box {
     width: 50%;
     height: 100%;
-    border: solid 1px red;
+    /* border: solid 1px red; */
+    /* background-size:  */
+    /* background-position: center; */
+    position: relative;
+}
+
+.quick-contact__box.free-training {
+    background: url(../assets/quickcontact1.jpg);
+    background-size: cover;
+}
+
+.quick-contact__box.contact-number {
+    background: url(../assets/quickcontact2.jpg);
+    background-size: cover;
+}
+
+.quick-contact__box .box__overlay {
+    position: absolute;
+    width: 100%;
+    top: 0;
+    bottom: 0;
+    background: rgba(0%,0.4%,8.2%, .7);
+}
+
+footer {
+    height: 600px;
 }
 /* 21212B - dark background */
 
