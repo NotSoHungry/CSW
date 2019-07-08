@@ -1176,6 +1176,39 @@ box-shadow: 3px 11px 7px -12px rgba(179,179,179,1); */
 footer {
     height: 500px;
     background: #262737;
+    font-family: "Open Sans";
+}
+
+footer .container {
+    display: flex;
+    flex-direction: column;
+    padding-top: 40px;
+}
+
+.footer__menu {
+    /* border: solid 1px red; */
+    /* height: 100px; */
+    display: flex;
+    justify-content: center;
+    padding-bottom: 15px;
+}
+
+.footer__contact {
+    /* border: solid 1px green; */
+    border-bottom: solid 1px #C8C8CC;
+}
+
+.footer__menu__list {
+    /* height: 100%; */
+    vertical-align: top;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: #C8C8CC;
+
+}
+
+.footer__menu__list li {
+    padding: 15px;
 }
 /* 21212B - dark background */
 
