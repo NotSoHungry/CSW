@@ -1115,15 +1115,20 @@ box-shadow: 3px 11px 7px -12px rgba(179,179,179,1); */
     /* background-size:  */
     /* background-position: center; */
     position: relative;
+    text-transform: uppercase;
+    color: white;
+    font-family: "Open Sans";
+    text-align: center;
+
 }
 
 .quick-contact__box.free-training {
-    background: url(../assets/quickcontact1.jpg);
+    background: url(../assets/quickcontact2.jpg);
     background-size: cover;
 }
 
 .quick-contact__box.contact-number {
-    background: url(../assets/quickcontact2.jpg);
+    background: url(../assets/quickcontact1.jpg);
     background-size: cover;
 }
 
@@ -1133,10 +1138,44 @@ box-shadow: 3px 11px 7px -12px rgba(179,179,179,1); */
     top: 0;
     bottom: 0;
     background: rgba(0%,0.4%,8.2%, .7);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.quick-contact__box__para {
+    font-size: 24px;
+    line-height: 32px;
+}
+
+.quick-contact__box__btn {
+    text-decoration: none;
+    background: #cc071e;
+    text-align: center;
+    border: none;
+    color: white;
+    padding: 15px 30px;
+    /* font-weight: 700; */
+    text-transform: uppercase;
+    margin-top: 20px;
+    font-size: 16px;
+    cursor: pointer;
+    letter-spacing: .3px;
+    
+}
+
+.quick-contact__box__heading {
+    color: white;
+    font-size: 32px;
+    line-height: 38px;
+    padding: 15px;
+    
 }
 
 footer {
-    height: 600px;
+    height: 500px;
+    background: #262737;
 }
 /* 21212B - dark background */
 
